@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/_10sdp"
+        tools:context=".tvquiz">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TV Series Quiz"
+            android:textStyle="bold"
+            android:layout_margin="@dimen/_10sdp"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_25sdp" />
+
+        <!-- The Vampire Diaries -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_margin="@dimen/_5sdp"
+            android:id="@+id/vampirediaries"
+            android:layout_height="wrap_content"
+            android:background="@drawable/item_bg"
+            android:padding="@dimen/_10sdp">
+
+            <TextView
+                android:id="@+id/tsubcat1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:text="The Vampire Diaries"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_18sdp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="@dimen/_30sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/next" />
+
+        </RelativeLayout>
+
+        <!-- Teen Wolf -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_margin="@dimen/_5sdp"
+            android:id="@+id/teenwolf"
+            android:layout_height="wrap_content"
+            android:background="@drawable/item_bg"
+            android:padding="@dimen/_10sdp">
+
+            <TextView
+                android:id="@+id/tsubcat2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:text="Teen Wolf"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_18sdp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="@dimen/_30sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/next" />
+
+        </RelativeLayout>
+
+        <!-- Game of Thrones -->
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_margin="@dimen/_5sdp"
+            android:id="@+id/gameofthrones"
+            android:layout_height="wrap_content"
+            android:background="@drawable/item_bg"
+            android:padding="@dimen/_10sdp">
+
+            <TextView
+                android:id="@+id/tsubcat3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:text="Game of Thrones"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_18sdp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="@dimen/_30sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/next" />
+
+        </RelativeLayout>
+
+
+
+        <!-- Breaking Bad -->
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_margin="@dimen/_5sdp"
+            android:id="@+id/breakingbad"
+            android:layout_height="wrap_content"
+            android:background="@drawable/item_bg"
+            android:padding="@dimen/_10sdp">
+
+            <TextView
+                android:id="@+id/tsubcat7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:text="Breaking Bad"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_18sdp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="@dimen/_30sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/next" />
+
+        </RelativeLayout>
+
+
+        <!-- Vikings  -->
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_margin="@dimen/_5sdp"
+            android:id="@+id/viking"
+            android:layout_height="wrap_content"
+            android:background="@drawable/item_bg"
+            android:padding="@dimen/_10sdp">
+
+            <TextView
+                android:id="@+id/tsubcat10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:text="Vikings"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_18sdp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="@dimen/_30sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/next" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="First">#00CCA4</color>
+    <color name="Second">#00E89D</color>
+    <color name="Third">#FF6565</color>
+    <color name="Fourth">#F5F5F5</color>
+    <color name="right">#008EFF</color>
+    <color name="purple">#0021C2</color>
+
+
+    <color name="next_btn_color">#1C6052</color>
+</resources>

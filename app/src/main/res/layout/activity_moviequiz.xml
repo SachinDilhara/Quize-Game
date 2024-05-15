@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_10sdp"
+        android:orientation="vertical"
+        tools:context=".moviequiz">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Movie Quiz"
+            android:textStyle="bold"
+            android:layout_margin="@dimen/_10sdp"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_25sdp" />
+
+        <!-- Harry Potter -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_margin="@dimen/_5sdp"
+            android:id="@+id/harrypotter"
+            android:layout_height="wrap_content"
+            android:background="@drawable/item_bg"
+            android:padding="@dimen/_10sdp">
+
+            <TextView
+                android:id="@+id/msubcat1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:text="Harry Potter"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_18sdp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="@dimen/_30sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/next" />
+
+        </RelativeLayout>
+
+        <!-- Marvel Cinematic Universe -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_margin="@dimen/_5sdp"
+            android:id="@+id/mcu"
+            android:layout_height="wrap_content"
+            android:background="@drawable/item_bg"
+            android:padding="@dimen/_10sdp">
+
+            <TextView
+                android:id="@+id/msubcat2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:text="Marvel Cinematic Universe"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_18sdp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="@dimen/_30sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/next" />
+
+        </RelativeLayout>
+
+        <!-- The Twilight Saga -->
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_margin="@dimen/_5sdp"
+            android:id="@+id/twilight"
+            android:layout_height="wrap_content"
+            android:background="@drawable/item_bg"
+            android:padding="@dimen/_10sdp">
+
+            <TextView
+                android:id="@+id/msubcat3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:text="The Twilight Saga"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_18sdp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="@dimen/_30sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/next" />
+
+        </RelativeLayout>
+
+        <!-- Mission: Impossible -->
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_margin="@dimen/_5sdp"
+            android:id="@+id/missionimpossible"
+            android:layout_height="wrap_content"
+            android:background="@drawable/item_bg"
+            android:padding="@dimen/_10sdp">
+
+            <TextView
+                android:id="@+id/msubcat4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:text="Mission Impossible"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_18sdp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="@dimen/_30sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/next" />
+
+        </RelativeLayout>
+
+        <!-- Pirates of the Caribbean -->
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_margin="@dimen/_5sdp"
+            android:id="@+id/piratesofthecaribbean"
+            android:layout_height="wrap_content"
+            android:background="@drawable/item_bg"
+            android:padding="@dimen/_10sdp">
+
+            <TextView
+                android:id="@+id/msubcat5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:text="Pirates of the Caribbean"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_18sdp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="@dimen/_30sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/next" />
+
+        </RelativeLayout>
+
+        <!-- The Dark Knight -->
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_margin="@dimen/_5sdp"
+            android:id="@+id/darkknight"
+            android:layout_height="wrap_content"
+            android:background="@drawable/item_bg"
+            android:padding="@dimen/_10sdp">
+
+            <TextView
+                android:id="@+id/msubcat6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:text="The Dark Knight"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_18sdp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="@dimen/_30sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/next" />
+
+        </RelativeLayout>
+
+        <!-- The Lord of the Rings -->
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_margin="@dimen/_5sdp"
+            android:id="@+id/lordoftherings"
+            android:layout_height="wrap_content"
+            android:background="@drawable/item_bg"
+            android:padding="@dimen/_10sdp">
+
+            <TextView
+                android:id="@+id/msubcat7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:text="The Lord of the Rings"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_18sdp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="@dimen/_30sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/next" />
+
+        </RelativeLayout>
+
+        <!-- Underworld -->
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_margin="@dimen/_5sdp"
+            android:id="@+id/underworld"
+            android:layout_height="wrap_content"
+            android:background="@drawable/item_bg"
+            android:padding="@dimen/_10sdp">
+
+            <TextView
+                android:id="@+id/msubcat8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:text="Underworld"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_18sdp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="@dimen/_30sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/next" />
+
+        </RelativeLayout>
+
+        <!-- Fast & Furious -->
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_margin="@dimen/_5sdp"
+            android:id="@+id/fastandfurious"
+            android:layout_height="wrap_content"
+            android:background="@drawable/item_bg"
+            android:padding="@dimen/_10sdp">
+
+            <TextView
+                android:id="@+id/msubcat9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:text="Fast and Furious"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_18sdp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="@dimen/_30sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/next" />
+
+        </RelativeLayout>
+
+        <!-- John Wick -->
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_margin="@dimen/_5sdp"
+            android:id="@+id/johnwick"
+            android:layout_height="wrap_content"
+            android:background="@drawable/item_bg"
+            android:padding="@dimen/_10sdp">
+
+            <TextView
+                android:id="@+id/msubcat10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:text="John Wick"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_18sdp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="@dimen/_30sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/next" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</ScrollView>

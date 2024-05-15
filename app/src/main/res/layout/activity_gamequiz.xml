@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/_10sdp"
+        tools:context=".gamequiz">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Game Quiz"
+            android:textStyle="bold"
+            android:layout_margin="@dimen/_10sdp"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_25sdp" />
+
+        <!-- Assassin's Creed -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_margin="@dimen/_5sdp"
+            android:id="@+id/assassinscreed"
+            android:layout_height="wrap_content"
+            android:background="@drawable/item_bg"
+            android:padding="@dimen/_10sdp">
+
+            <TextView
+                android:id="@+id/gsubcat1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:text="Assassin's Creed"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_18sdp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="@dimen/_30sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/next" />
+
+        </RelativeLayout>
+
+        <!-- Mafia -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_margin="@dimen/_5sdp"
+            android:id="@+id/mafia"
+            android:layout_height="wrap_content"
+            android:background="@drawable/item_bg"
+            android:padding="@dimen/_10sdp">
+
+            <TextView
+                android:id="@+id/gsubcat2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:text="Mafia"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_18sdp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="@dimen/_30sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/next" />
+
+        </RelativeLayout>
+
+        <!-- Batman: Arkham -->
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_margin="@dimen/_5sdp"
+            android:id="@+id/arkham"
+            android:layout_height="wrap_content"
+            android:background="@drawable/item_bg"
+            android:padding="@dimen/_10sdp">
+
+            <TextView
+                android:id="@+id/gsubcat3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:text="Batman Arkham Series"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_18sdp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="@dimen/_30sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/next" />
+
+        </RelativeLayout>
+
+        <!-- Uncharted -->
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_margin="@dimen/_5sdp"
+            android:id="@+id/uncharted"
+            android:layout_height="wrap_content"
+            android:background="@drawable/item_bg"
+            android:padding="@dimen/_10sdp">
+
+            <TextView
+                android:id="@+id/gsubcat4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:text="Uncharted"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_18sdp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="@dimen/_30sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/next" />
+
+        </RelativeLayout>
+
+        <!-- Tomb Raider -->
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_margin="@dimen/_5sdp"
+            android:id="@+id/tombraider"
+            android:layout_height="wrap_content"
+            android:background="@drawable/item_bg"
+            android:padding="@dimen/_10sdp">
+
+            <TextView
+                android:id="@+id/gsubcat5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:text="Tomb Raider"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_18sdp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="@dimen/_30sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/next" />
+
+        </RelativeLayout>
+
+        <!-- God of war -->
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_margin="@dimen/_5sdp"
+            android:id="@+id/godofwar"
+            android:layout_height="wrap_content"
+            android:background="@drawable/item_bg"
+            android:padding="@dimen/_10sdp">
+
+            <TextView
+                android:id="@+id/gsubcat6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:text="God of war"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_18sdp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="@dimen/_30sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/next" />
+
+        </RelativeLayout>
+
+        <!-- Far Cry -->
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_margin="@dimen/_5sdp"
+            android:id="@+id/farcry"
+            android:layout_height="wrap_content"
+            android:background="@drawable/item_bg"
+            android:padding="@dimen/_10sdp">
+
+            <TextView
+                android:id="@+id/gsubcat7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:text="Far Cry"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_18sdp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="@dimen/_30sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/next" />
+
+        </RelativeLayout>
+
+        <!-- Need For Speed -->
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_margin="@dimen/_5sdp"
+            android:id="@+id/needforspeed"
+            android:layout_height="wrap_content"
+            android:background="@drawable/item_bg"
+            android:padding="@dimen/_10sdp">
+
+            <TextView
+                android:id="@+id/gsubcat8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:text="Need For Speed"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_18sdp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="@dimen/_30sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/next" />
+
+        </RelativeLayout>
+
+        <!-- Grand Theft Auto -->
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_margin="@dimen/_5sdp"
+            android:id="@+id/gta"
+            android:layout_height="wrap_content"
+            android:background="@drawable/item_bg"
+            android:padding="@dimen/_10sdp">
+
+            <TextView
+                android:id="@+id/gsubcat9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:text="Grand Theft Auto"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_18sdp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="@dimen/_30sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/next" />
+
+        </RelativeLayout>
+
+        <!-- Call of Duty -->
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_margin="@dimen/_5sdp"
+            android:id="@+id/callofduty"
+            android:layout_height="wrap_content"
+            android:background="@drawable/item_bg"
+            android:padding="@dimen/_10sdp">
+
+            <TextView
+                android:id="@+id/gsubcat10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:text="Call of Duty"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_18sdp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="@dimen/_30sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/next" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</ScrollView>
+
+
+
